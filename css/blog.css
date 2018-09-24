@@ -1,0 +1,71 @@
+#blog h3, h4 {
+	text-align: center;
+
+}
+
+#blogh h3 {
+	text-align: center;
+
+}
+
+
+#blog .contenedor{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#blogh .contenedor{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#blog img { 
+    max-width: 100%; background-size: 100%; background-image: url(../img/n.png); 
+}
+
+#blogh img { 
+    max-width: 100%; background-size: 100%; background-image: url(../img/n.png); 
+}
+
+#info img { 
+    max-width: 100%; background-size: 100%; background-image: url(../img/n.png); 
+}
+
+#banner img { 
+    max-width: 100%; background-size: 100%; background-image: url(../img/n.png); 
+}
+ 
+#banner .vt { background-position: 0 0%; background-size: 100%; }
+#blog .consulta { background-position: 0 10.710036%; background-size: 187.5%; }
+#blogh .dormir { background-position: 0 16.590954%; background-size: 193.548387%; }
+#blog .berga { background-position: 0 22.193574%; background-size: 200%; }
+#blogh .game { background-position: 0 28.19392%; background-size: 200%; }
+#blogh .lol { background-position: 0 33.631763%; background-size: 200%; }
+#blogh .steins { background-position: 0 38.318128%; background-size: 200%; }
+#info .swag { background-position: 0 44.32089%; background-size: 235.294118%; }
+#blog .hobbies { background-position: 0 49.842891%; background-size: 258.411844%; }
+#blogh .sg { background-position: 0 54.325799%; background-size: 266.666667%; }
+#blogh .programming { background-position: 0 58.022063%; background-size: 269.662921%; }
+#info .brother { background-position: 0 65.261209%; background-size: 280.291971%; }
+#blog .project { background-position: 0 71.076953%; background-size: 289.156627%; }
+#blog .personal { background-position: 0 76.856374%; background-size: 295.384615%; }
+#info .oso { background-position: 0 82.262666%; background-size: 348.45735%; }
+#blog .mine { background-position: 0 89.112984%; background-size: 354.243542%; }
+#info .back { background-position: 0 94.627366%; background-size: 355.555556%; }
+#blogh .netflix { background-position: 0 97.640601%; background-size: 480%; }
+#blog .img-1 { background-position: 0 100%; background-size: 633.663366%; }
+
+
+
+
+@media (min-width:1024px) {
+	.contenedor {
+		width: auto;
+	}
+} 
+
+
+
+    
